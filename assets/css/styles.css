@@ -1,0 +1,94 @@
+.syse-section-div1 {
+    position: absolute;
+    width: 1460px;
+    height: 779px;
+    left: 261px;
+    top: 1907px;
+    display: flex;
+    align-items: center
+}
+.syse-p{
+    position: absolute;
+    width: 541px;
+    height: 420px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 420px/2 - 69.5px);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: -0.290322px;
+
+    color: #000000;
+}
+.syse-p2{
+    color: #526C2F;
+}
+
+.syse-button{
+    top: 464px;
+    height: 63px;
+    width: 324px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+
+    background: #ED9900;
+    border-radius: 8px;
+    border: none;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.944444px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.syse-hundredpercent{
+    height: 22px;
+    width: 314px;
+    left: 7px;
+
+
+    position: absolute;
+    height: 22px;
+    right: 40.67%;
+    top: calc(50% - 22px/2 + 269.5px);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.290322px;
+
+    color: #353535;
+}
+.syse-section-div2{
+    position: absolute;
+    width: 834px;
+    height: 779px;
+    left: 887px;
+    top: 1907px;
+    border-radius: 0px;
+}
+
+.syse-section-div2-img{
+    position: absolute;
+    left: 847px;
+}
