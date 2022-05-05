@@ -1,3 +1,9 @@
+.html{
+    height: 8271px;
+    width: 1800px;
+    left: 0px;
+    top: 0px;
+}
 .syse-section-div1 {
     position: absolute;
     width: 1460px;
@@ -56,7 +62,7 @@
 
     color: #FFFFFF;
 }
-.syse-hundredpercent{
+.syse-percent{
     height: 22px;
     width: 314px;
     left: 7px;
@@ -91,4 +97,15 @@
 .syse-section-div2-img{
     position: absolute;
     left: 847px;
+}
+
+.etta-div{
+    position: absolute;
+
+    background: linear-gradient(180deg, #506B30 0%, #6C8C43 100%);
+
+    width: 1800px;
+    height: 1217px;
+    left: -2px;
+    top: 2784px;
 }
