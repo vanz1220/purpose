@@ -11,7 +11,13 @@
     left: 261px;
     top: 1907px;
     display: flex;
-    align-items: center
+    align-items: center;
+    border-radius: 0px;
+
+}
+.syse-section-div1 img{
+    position: absolute;
+    left: 847px;
 }
 .syse-p{
     position: absolute;
@@ -97,7 +103,14 @@
 .syse-section-div2-img{
     position: absolute;
     left: 847px;
+
+    height: 779px;
+    width: 834px;
+    top: 1907px;
+    border-radius: 0px;
+
 }
+
 
 .etta-div{
     position: absolute;
