@@ -1,33 +1,22 @@
-.html {
-  height: 8271px;
-  width: 1800px;
-  left: 0px;
-  top: 0px;
-}
-
-.syse-section-div1 {
-  position: absolute;
-  width: 1679px;
-  height: 779px;
-  left: 261px;
-  top: 1907px;
+.syse {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 0px;
 }
 
-.syse-section-div1 img {
-  position: absolute;
-  left: 847px;
-}
-
-.syse-p {
+.syse .syse-column .syse-left {
   position: absolute;
   width: 541px;
+  height: 559px;
+  left: 261px;
+  top: 2046px;
+}
+
+.syse .syse-column .syse-left .syse-p1 {
+  position: absolute;
   height: 420px;
   left: 0%;
   right: 0%;
@@ -37,16 +26,34 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  /* or 156% */
   letter-spacing: -0.290322px;
   color: #000000;
 }
 
-.syse-p2 {
+.syse .syse-column .syse-left .syse-p2 {
+  height: 22px;
+  width: 314px;
+  left: 7px;
+  position: absolute;
+  height: 22px;
+  right: 40.67%;
+  top: calc(50% - 22px/2 + 269.5px);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.290322px;
+  color: #353535;
+}
+
+.syse .syse-column .syse-left .syse-label {
   color: #526C2F;
 }
 
-.syse-button {
+.syse .syse-column .syse-left .syse-button {
   top: 464px;
   height: 63px;
   width: 324px;
@@ -68,26 +75,7 @@
   color: #FFFFFF;
 }
 
-.syse-percent {
-  height: 22px;
-  width: 314px;
-  left: 7px;
-  position: absolute;
-  height: 22px;
-  right: 40.67%;
-  top: calc(50% - 22px/2 + 269.5px);
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-  text-align: center;
-  letter-spacing: -0.290322px;
-  color: #353535;
-}
-
-.syse-section-div2 {
+.syse .syse-column .syse-right {
   position: absolute;
   width: 834px;
   height: 779px;
@@ -96,13 +84,8 @@
   border-radius: 0px;
 }
 
-.syse-section-div2-img {
-  position: absolute;
+.syse .syse-column .syse-right .syse-img {
   left: 847px;
-  height: 779px;
-  width: 834px;
-  top: 1907px;
-  border-radius: 0px;
 }
 
 .etta-div {
@@ -113,5 +96,13 @@
   height: 1217px;
   left: -2px;
   top: 2784px;
+}
+
+.etta-div .etta-img {
+  position: absolute;
+  left: 170px;
+  height: 779px;
+  width: 834px;
+  border-radius: 0px;
 }
 /*# sourceMappingURL=styles.css.map */
