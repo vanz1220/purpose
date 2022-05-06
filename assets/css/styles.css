@@ -1,13 +1,4 @@
-.syse {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.syse .syse-column .syse-left {
+.syse-left {
   position: absolute;
   width: 541px;
   height: 559px;
@@ -15,7 +6,7 @@
   top: 2046px;
 }
 
-.syse .syse-column .syse-left .syse-p1 {
+.syse-left .syse-p1 {
   position: absolute;
   height: 420px;
   left: 0%;
@@ -30,7 +21,7 @@
   color: #000000;
 }
 
-.syse .syse-column .syse-left .syse-p2 {
+.syse-left .syse-p2 {
   height: 22px;
   width: 314px;
   left: 7px;
@@ -49,11 +40,11 @@
   color: #353535;
 }
 
-.syse .syse-column .syse-left .syse-label {
+.syse-left .syse-label {
   color: #526C2F;
 }
 
-.syse .syse-column .syse-left .syse-button {
+.syse-left .syse-button {
   top: 464px;
   height: 63px;
   width: 324px;
@@ -75,7 +66,7 @@
   color: #FFFFFF;
 }
 
-.syse .syse-column .syse-right {
+.syse-right {
   position: absolute;
   width: 834px;
   height: 779px;
@@ -84,12 +75,13 @@
   border-radius: 0px;
 }
 
-.syse .syse-column .syse-right .syse-img {
+.syse-right img {
   left: 847px;
 }
 
 .etta-div {
   position: absolute;
+  background-image: url("/assets/images/adaptive_bg.png");
   background: -webkit-gradient(linear, left top, left bottom, from(#506B30), to(#6C8C43));
   background: linear-gradient(180deg, #506B30 0%, #6C8C43 100%);
   width: 1800px;
@@ -98,11 +90,79 @@
   top: 2784px;
 }
 
-.etta-div .etta-img img {
+.etta-div h1 {
+  position: absolute;
+  height: 192px;
+  left: 24%;
+  right: 23.94%;
+  top: calc(50% - 192px / 2 - 394.5px);
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 64px;
+  text-align: center;
+  width: 900px;
+  color: #FFFFFF;
+}
+
+.etta-div h2 {
+  position: absolute;
+  height: 29px;
+  left: 24%;
+  right: 23.94%;
+  top: calc(50% - 29px/2 - 260px);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.387097px;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.etta-div img {
+  display: none;
   position: absolute;
   left: 170px;
   height: auto;
   width: auto;
   border-radius: 0px;
+}
+
+.etta-div .etta-p {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.290322px;
+  padding-top: 400px;
+  color: #353535;
+}
+
+.etta-div .etta-p button {
+  width: 700px;
+  background: #F2F1EB;
+  border-radius: 8px;
+}
+
+.etta-div .etta-p .card-body {
+  height: auto;
+  width: 700px;
 }
 /*# sourceMappingURL=styles.css.map */
