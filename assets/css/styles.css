@@ -98,11 +98,11 @@
   top: 2784px;
 }
 
-.etta-div .etta-img {
+.etta-div .etta-img img {
   position: absolute;
   left: 170px;
-  height: 779px;
-  width: 834px;
+  height: auto;
+  width: auto;
   border-radius: 0px;
 }
 /*# sourceMappingURL=styles.css.map */
