@@ -1,6 +1,3 @@
-#section{
-    width: 100%;
-}
 .syse-left{
     position: absolute;
     width: 541px;
@@ -91,10 +88,11 @@
     position: absolute;
     background-image: url("/assets/images/adaptive_bg.png");
     background: linear-gradient(180deg, #506B30 0%, #6C8C43 100%);
-    width: 1800px;
+    //width: 1800px;
     height: 1217px;
     left: -2px;
     top: 2784px;
+    overflow: hidden;
 
     h1{
         position: absolute;
@@ -158,10 +156,12 @@
             width: 700px;
             background: #F2F1EB;
             border-radius: 8px;
+            z-index: 1;
         }
         .card-body{
             height: auto;
             width: 700px;
+            margin-top: -10px;
         }
     }
     
