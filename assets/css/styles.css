@@ -1,14 +1,13 @@
-.syse-left {
+.container .row .syse-col1 {
   position: absolute;
   width: 541px;
   height: 559px;
   left: 261px;
-  top: 2046px;
+  top: 1907px;
 }
 
-.syse-left .syse-p1 {
+.container .row .syse-p1 {
   position: absolute;
-  height: 420px;
   left: 0%;
   right: 0%;
   top: calc(50% - 420px / 2 - 69.5px);
@@ -21,40 +20,12 @@
   color: #000000;
 }
 
-.syse-left .syse-p2 {
-  height: 22px;
-  width: 314px;
-  left: 7px;
-  position: absolute;
-  height: 22px;
-  right: 40.67%;
-  top: calc(50% - 22px/2 + 269.5px);
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-  text-align: center;
-  letter-spacing: -0.290322px;
-  color: #353535;
-}
-
-.syse-left .syse-label {
+.container .row .syse-p1 label {
   color: #526C2F;
 }
 
-.syse-left .syse-button {
-  top: 464px;
-  height: 63px;
-  width: 324px;
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  bottom: 0%;
-  background: #ED9900;
-  border-radius: 8px;
-  border: none;
+.container .row .syse-btn {
+  top: 290px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -64,19 +35,45 @@
   letter-spacing: 0.944444px;
   text-transform: uppercase;
   color: #FFFFFF;
+  height: 63px;
+  width: 324px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  background: #ED9900;
+  border-radius: 8px;
+  border: none;
 }
 
-.syse-right {
+.container .row .syse-p2 {
+  width: 314px;
+  left: 7px;
+  position: absolute;
+  height: 22px;
+  right: 40.67%;
+  top: calc(50% - 22px/2 + 119.5px);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.290322px;
+  color: #353535;
+}
+
+.syse-col2 {
   position: absolute;
   width: 834px;
-  height: 779px;
-  left: 887px;
   top: 1907px;
   border-radius: 0px;
 }
 
-.syse-right img {
-  left: 847px;
+.syse-col2 img {
+  position: absolute;
+  left: 737px;
+  width: 500px;
 }
 
 .etta-div {

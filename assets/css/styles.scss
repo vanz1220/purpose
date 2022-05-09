@@ -1,89 +1,83 @@
-.syse-left{
-    position: absolute;
-    width: 541px;
-    height: 559px;
-    left: 261px;
-    top: 2046px;
-    .syse-p1{
-        position: absolute;
-        height: 420px;
-        left: 0%;
-        right: 0%;
-        top: calc(50% - 420px / 2 - 69.5px);
+.container{
+    .row{
+        .syse-col1{
+            position: absolute;
+            width: 541px;
+            height: 559px;
+            left: 261px;
+            top: 1907px;
+        }
+        .syse-p1{
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: calc(50% - 420px / 2 - 69.5px);
+    
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: -0.290322px;
+    
+            color: #000000;
+            label{
+                color: #526C2F;
+            }
+        }
+        .syse-btn{
+            top: 290px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 21px;
+            /* identical to box height */
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 28px;
-        letter-spacing: -0.290322px;
+            letter-spacing: 0.944444px;
+            text-transform: uppercase;
 
-        color: #000000;
-    }
-    .syse-p2{
-        height: 22px;
-        width: 314px;
-        left: 7px;
-
-
-        position: absolute;
-        height: 22px;
-        right: 40.67%;
-        top: calc(50% - 22px/2 + 269.5px);
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        /* identical to box height */
-
-        text-align: center;
-        letter-spacing: -0.290322px;
-
-        color: #353535;
-    }
-    .syse-label{
-        color: #526C2F;
-    }
-    .syse-button{
-        top: 464px;
-        height: 63px;
-        width: 324px;
-        position: absolute;
-        left: 0%;
-        right: 0%;
-        bottom: 0%;
-
-        background: #ED9900;
-        border-radius: 8px;
-        border: none;
-
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 21px;
-        /* identical to box height */
-
-        letter-spacing: 0.944444px;
-        text-transform: uppercase;
-
-        color: #FFFFFF;
-    }
+            color: #FFFFFF;
+            height: 63px;
+            width: 324px;
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            bottom: 0%;
+            background: #ED9900;
+            border-radius: 8px;
+            border: none;
+        }
+        .syse-p2{
+            width: 314px;
+            left: 7px;
+            position: absolute;
+            height: 22px;
+            right: 40.67%;
+            top: calc(50% - 22px/2 + 119.5px);
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: -0.290322px;
+            color: #353535;
+        }
+    }   
 }
-.syse-right{
+.syse-col2{
     position: absolute;
     width: 834px;
-    height: 779px;
-    left: 887px;
     top: 1907px;
     border-radius: 0px;
     img{
-        left: 847px;
+        position: absolute;
+        left: 737px;
+        width: 500px;
     }
 }
+    
 .etta-div{
     position: absolute;
     background-image: url("/assets/images/adaptive_bg.png");
