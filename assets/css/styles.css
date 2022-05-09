@@ -166,4 +166,42 @@
   width: 700px;
   margin-top: -10px;
 }
+
+.fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -25px;
+  border: solid 1px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-left: 650px;
+}
+
+[data-bs-toggle="collapse"].collapsed .fa:before {
+  content: "+";
+}
+
+[data-bs-toggle="collapse"] .fa:before {
+  content: "-";
+}
+
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 /*# sourceMappingURL=styles.css.map */
